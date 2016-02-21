@@ -1,5 +1,14 @@
 package ch1;
 
+/**
+ * Feb 11, 2016
+ * 1.4: replace spaces in a string (with enough spaces for extension) with '%20'
+ * solution
+       1. get the last character except space
+       2. from the last char to the first, store character at then end of the string
+       3. store '0', '2', '%' if next character is a space
+ */
+
 public class Q1_4 {
 
   public static void main(String[] args) {

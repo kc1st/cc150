@@ -1,7 +1,5 @@
 package ch1;
 
-import java.io.*;
-
 /**
  * Feb 11, 2016
  * 1.3: if a string is a permutation (has same characters) of the other
@@ -17,6 +15,7 @@ import java.io.*;
  */
 
 import java.util.*;
+import java.io.*;
 
 public class Q1_3 {
   public static void main(String[] args) throws FileNotFoundException {

@@ -1,5 +1,18 @@
 package ch1;
 
+/**
+ * Feb 18, 2016
+ * 1.5: compress a string using the counts of repeated characters
+        return the original string if the compressed string is longer than the original
+ * ask: 
+       1. space and time complexity
+ * solution
+       1. check the length of the compressed
+       2. scan the string, if next char is the same, implement the count
+       3. if not, push the current char and count into the buffer
+       4. push the last char and count into the buffer
+ */
+
 public class Q1_5 {
 
   public static void main(String[] args) {
